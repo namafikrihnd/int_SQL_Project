@@ -1,4 +1,4 @@
-CREATE VIEW geographic_performance AS(
+WITH geographic_performance AS(
 	SELECT 
 			s.customerkey,
 			c.country,
